@@ -1,0 +1,661 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- primary meta tags -->
+    <title>COVID-19 Tracker</title>
+    <meta name="title" content="COVID-19">
+    <meta name="description" content="COVID-19">
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- preload images -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner-removebg-preview.png">
+
+</head>
+<body>
+    <!-- header -->
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./assets/images/logo-1.png" width="180" height="50" alt="Covid-19">
+            </a>
+            <nav class="navbar" data-navbar>
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+                    </li>
+
+                    <li class="navbar-item">
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button class="nav-toggle-btn" aria-label="toggle menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true" class="menu"></ion-icon>
+            </button>
+
+            <a href="#" class="btn btn-primary">Are you sick?</a>
+        </div> 
+    </header>
+
+    <main>
+        <article>
+
+            <!-- hero -->
+            <section class="section hero has-bg-image" id="home" style="background-image: url('./assets/images/bg.png');"
+               aria-label="home">
+               <div class="container">
+
+                 <div class="hero-content">
+
+                    <h1 class="h1 hero-title">COVID-19 Tracker</h1>
+                    <p class="hero-text">
+                        Total Confirmed Corona Cases in Thailand
+                    </p>
+
+                    <data class="counter" value="4,770,149">4,770,149</data>
+
+                    <ul class="hero-list">
+
+                      <li class="hero-list-item yellow">
+                        Active cases <span class="span">390</span>
+                      </li>
+
+                      <li class="hero-list-item green">
+                        Recovered cases <span class="span">4,692,636</span>
+                      </li>
+
+                      <li class="hero-list-item red">
+                        Deaths <span class="span">34,586</span>
+                      </li>
+
+                    </ul>
+
+                    <a href="#" class="btn btn-primary">Meet The Doctor</a>
+
+                 </div>
+
+                 <figure class="hero-banner">
+                    <img src="./assets/images/hero-banner-removebg-preview.png" width="570" height="562" alt="corona virus" class="w-100">
+                 </figure>
+
+               </div>
+            </section>
+
+            <!-- about -->
+            <section class="section about" id="about" aria-labelledby="about-label-1">
+                <div class="container">
+                    <figure class="about-banner">
+                        <img src="./assets/images/banner1.png" width="540" height="540" loading="lazy" alt="about banner" class="w-100">
+                    </figure>
+
+                    <div class="about-content">
+                        <p class="about-subtitle" id="about-label-1"></p>
+                        <h2 class="hs-section-title">How Contagion Coronavirus</h2>
+                        <p class="section-text text">
+                            COVID-19 spreads when an infected person breathes out droplets and very small particles that contain the virus. These droplets and particles can be breathed in by other people or land on their eyes, noses, or mouth. In some circumstances, they may contaminate surfaces they touch.
+                        </p>
+
+                        <ul class="about-item">
+                            <li class="about-item">
+                                <figure class="item-img img-holder" style="--width: 80; --height: 80;" >
+                                    <img src="./assets/images/1.png" width="80" height="80" loading="lazy" 
+                                    alt="shake hand">
+                                </figure>
+
+                                <div class="item-content">
+                                    <h3 class="h4 item-title">Shake hand</h3>
+                                    <p class="item-text text">
+                                        when an infected person touch other people by their hand other can get the virus too.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <figure class="item-img img-holder" style="--width: 80; --height: 80;" >
+                                    <img src="./assets/images/2.png" width="80" height="80" loading="lazy" alt="human contact">
+                                </figure>
+    
+                                <div class="item-content">
+                                    <h3 class="h4 item-title">Human Contact</h3>
+                                    <p class="item-text text">
+                                        when an infected person breathes out droplets and very small particles that contain the virus.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="about-item">
+                                <figure class="item-img img-holder" style="--width: 80; --height: 80;" >
+                                    <img src="./assets/images/3.png" width="80" height="80" loading="lazy" alt="food & water">
+                                </figure>
+        
+                                <div class="item-content">
+                                    <h3 class="h4 item-title">Food & Water</h3>
+                                    <p class="item-text text">
+                                            when a normal people eat food or drink from the same container as an infected person, normal people can get the virus.
+                                    </p>
+                                </div>
+                            </li>    
+
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- service -->
+            <section class="section service has-bg-image" style="background-image: url('./assets/images/bg2.png')" 
+              aria-labelledby="service-label-1">
+              <div class="container">
+
+                <h2 class="h2 section-title" id="service-label-1">Corona Virus Symptoms</h2>
+      
+                <p class="section-text text">
+                  Dynamically formulate fully tested catalysts for change via focused methods of empowerment Assertively
+                  extend
+                  alternative synergy and extensive web services.
+                </p>
+      
+                <ul class="service-list">
+      
+                  <li>
+                    <div class="service-card">
+      
+                      <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                        <img src="./assets/images/ser1.png" width="110" height="110" loading="lazy"
+                          alt="service image">
+                      </figure>
+                      <div class="card-content">
+                        <h3 class="h4 card-title">Coughing And Sneezing</h3>
+      
+                        <p class="card-text text">
+                          Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.
+                        </p>
+                      </div>
+      
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="service-card">
+      
+                      <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                        <img src="./assets/images/ser2.png" width="110" height="110" loading="lazy"
+                          alt="service image">
+                      </figure>
+      
+                      <div class="card-content">
+                        <h3 class="h4 card-title">Hot Fever</h3>
+      
+                        <p class="card-text text">
+                          Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.
+                        </p>
+                      </div>
+      
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="service-card">
+      
+                      <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                        <img src="./assets/images/ser3.png" width="110" height="110" loading="lazy"
+                          alt="service image">
+                      </figure>
+      
+                      <div class="card-content">
+                        <h3 class="h4 card-title">Strong Headacke</h3>
+      
+                        <p class="card-text text">
+                          Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.
+                        </p>
+                      </div>
+      
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="service-card">
+      
+                      <figure class="card-banner img-holder" style="--width: 110; --height: 110;">
+                        <img src="./assets/images/ser4.png" width="110" height="110" loading="lazy"
+                          alt="service image">
+                      </figure>
+      
+                      <div class="card-content">
+                        <h3 class="h4 card-title">Shortness Of Breath</h3>
+      
+                        <p class="card-text text">
+                          Our comprehensive Online Marketing strategy will boost your website trafic hence monthly sales.
+                        </p>
+                      </div>
+      
+                    </div>
+                  </li>
+
+                </ul>
+
+              </div>
+            </section>
+
+            <!-- about -->
+            <section class="section about" id="about" aria-labelledby="about-label-2">
+                <div class="container">
+        
+                  <figure class="about-banner order-1">
+                    <img src="./assets/images/banner2.png" width="540" height="540" loading="lazy" alt="about banner"
+                      class="w-100">
+                  </figure>
+        
+                  <div class="about-content">
+        
+                    <p class="about-subtitle" id="about-label-2">About (2020-nCoV)</p>
+        
+                    <h2 class="h2 section-title">Prevention Coronavirus</h2>
+        
+                    <p class="section-text text">
+                        According to recent evidence, COVID-19 virus is thought to primarily transmit between people through respiratory droplets, aerosols and contact routes. Since COVID-19 disease might attack anyone at any age, to control the spread of COVID-19, public awareness in reducing disease transmission must be raised. Recommendations include:
+                    </p>
+
+                    <ul class="about-list">
+
+                        <li class="about-item">
+                          <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                            <img src="./assets/images/a1.png" width="80" height="80" loading="lazy"
+                              alt="Wash Your Hands For 20sec">
+                          </figure>
+          
+                          <div class="item-content">
+                            <h3 class="h4 item-title">Wash Your Hands For 20sec</h3>
+          
+                            <p class="item-text text">
+                                Frequent washing of hands with soap and water. Alcohol-based hand rub  can be also used.
+                            </p>
+                          </div>
+                        </li>
+
+                        <li class="about-item">
+                            <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                              <img src="./assets/images/a2.png" width="80" height="80" loading="lazy"
+                                alt="Cover Nose and Mouth When Sneezing">
+                            </figure>
+            
+                            <div class="item-content">
+                              <h3 class="h4 item-title">Cover Nose and Mouth When Sneezing</h3>
+            
+                              <p class="item-text text">
+                                Keeping healthy and practicing good personal hygiene. Touching face, eyes, nose, mouth must be also avoided.
+                              </p>
+                            </div>
+                          </li>
+
+                          <li class="about-item">
+                            <figure class="item-img img-holder" style="--width: 80; --height: 80;">
+                              <img src="./assets/images/a3.png" width="80" height="80" loading="lazy"
+                                alt="Wear A Mask If Available">
+                            </figure>
+            
+                            <div class="item-content">
+                              <h3 class="h4 item-title">Wear A Mask If Available</h3>
+            
+                              <p class="item-text text">
+                                Wearing face masks properly to cover mouth and nose entirely. Face masks can serve a public health benefit in reducing transmission by limiting the volume and travel distance of expiratory droplets dispersed when sneezing, coughing or talking.
+                              </p>
+                            </div>
+                          </li>
+                        
+                    </ul>
+
+                  </div>
+
+                </div>
+            </section>  
+            
+            <!-- blog -->
+            <section class="section blog" id="blog" aria-labelledby="blog-lable">
+                <section class="container">
+        
+                  <h2 class="h2 section-title" id="blog-label">Our Popular Blog</h2>
+        
+                  <p class="section-text text">
+                    Dynamically formulate fully tested catalysts for change via focused methods of empowerment Assertively
+                    extend
+                    alternative synergy and extensive web services.
+                  </p>
+
+                  <ul class="grid-list">
+                    <li>
+                        <div class="blog-card">
+          
+                          <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                            <img src="./assets/images/1.png" width="370" height="280" loading="lazy"
+                              alt="How to wash your hand..." class="img-cover">
+                          </figure>
+          
+                          <div class="card-content">
+          
+                            <h3 class="h4">
+                              <a href="#" class="card-title">
+                                How to wash your hand
+                              </a>
+                            </h3>
+
+                            <div class="card-meta">
+
+                                <div class="wrapper">
+                                  <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+            
+                                  <time class="meta-text" datetime="2022-07-12">May 14, 2024</time>
+                                </div>
+            
+                                <div class="wrapper">
+                                  <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            
+                                  <p class="meta-text">Johnson</p>
+                                </div>
+            
+                              </div>
+            
+                              <p class="card-text text">
+                                Frequent, thorough handwashing with soap and water is one of the best ways to prevent the spread of infectious diseases, and is an important defence against COVID-19.
+                              </p>
+            
+                            </div>
+
+                            <div class="card-footer">
+                                <a href="#" class="btn-link">Read More</a>
+                              </div>
+              
+                            </div>
+                          </li>
+              
+                          <li>
+                            <div class="blog-card">
+              
+                              <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                                <img src="./assets/images/2.png" width="370" height="280" loading="lazy"
+                                  alt="Social distance" class="img-cover">
+                              </figure>
+              
+                              <div class="card-content">
+              
+                                <h3 class="h4">
+                                  <a href="#" class="card-title">
+                                    Social distance
+                                  </a>
+                                </h3>
+
+                                <div class="card-meta">
+
+                                    <div class="wrapper">
+                                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                
+                                      <time class="meta-text" datetime="2022-07-12">July 1, 2024</time>
+                                    </div>
+                
+                                    <div class="wrapper">
+                                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                
+                                      <p class="meta-text">Janny kim</p>
+                                    </div>
+                
+                                  </div>
+
+                                  <p class="card-text text">
+                                    Practicing COVID-19 safety is important whether you're indoors or outdoors, Beshears says. That means you should continue washing your hands regularly and keep at least six feet of space between yourself and others.
+                                  </p>
+                
+                                </div>
+                
+                                <div class="card-footer">
+                                  <a href="#" class="btn-link">Read More</a>
+                                </div>
+                
+                              </div>
+                            </li>
+                
+                            <li>
+                              <div class="blog-card">
+                
+                                <figure class="card-banner img-holder" style="--width: 370; --height: 280;">
+                                  <img src="./assets/images/a3.png" width="370" height="280" loading="lazy"
+                                    alt="Symptoms" class="img-cover">
+                                </figure>
+                
+                                <div class="card-content">
+                
+                                  <h3 class="h4">
+                                    <a href="#" class="card-title">
+                                      Symptoms
+                                    </a>
+                                  </h3>
+
+                                  <div class="card-meta">
+
+                                    <div class="wrapper">
+                                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+                
+                                      <time class="meta-text" datetime="2022-07-12">Dec 31, 2024</time>
+                                    </div>
+                
+                                    <div class="wrapper">
+                                      <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+                
+                                      <p class="meta-text">xiangmi</p>
+                                    </div>
+                
+                                  </div>
+                
+                                  <p class="card-text text">
+                                    As a highly contagious and potent disease, COVID-19 can cause a wide range of symptoms, extending from mild to fatal, affecting different organs in the body. In severe cases, lung infections with serious complications might develop, resulting in a greater chance of life-threatening event.
+                                  </p>
+                
+                                </div>
+                
+                                <div class="card-footer">
+                                  <a href="#" class="btn-link">Read More</a>
+                                </div>
+                
+                              </div>
+                            </li>
+                
+                  </ul>
+            </section>
+        
+
+        </article>
+    </main>
+
+<!-- footer -->
+<footer class="footer has-bg-image" style="background-image: url('./assets/images/footer-bg.jpg')">
+        <div class="container">
+    
+          <div class="footer-top section">
+    
+            <div class="footer-brand">
+    
+              <h3 class="h4 footer-list-title">About Covid-19</h3>
+    
+              <p class="footer-text text">
+                an infectious disease caused by the SARS-CoV-2 virus.
+              </p>
+    
+              <ul class="contact-list">
+    
+                <li class="contact-item">
+                  <p class="contact-title">Headquarters:</p>
+    
+                  <address class="address text">
+                    795 Folsom Ave, Suite 600 San Francisco, CA 94107
+                  </address>
+                </li>
+    
+                <li class="contact-item">
+                  <p class="contact-title">Phone:</p>
+    
+                  <a href="tel:+524623435643" class="text">(+69) 1234 56789</a>
+                </li>
+    
+                <li class="contact-item">
+                    <p class="contact-title">Email:</p>
+    
+                    <a href="mailto:info@covid-19.com" class="text">information@covid19.com</a>
+                </li>
+    
+              </ul>
+    
+          </div>
+    
+    <ul class="footer-list">
+        
+        <li>
+            
+            <h3 class="h4 footer-list-title">Navigate</h3>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Advertisers</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Developers</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Resources</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+     
+            <a href="#" class="footer-link">Company</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Connect</a>
+        </li>
+    
+    </ul>
+    
+    <ul class="footer-list social-list">
+    
+        <li>
+            <h3 class="h4 footer-list-title">Social Contact</h3>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="logo-facebook" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Facebook</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="logo-twitter" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Twitter</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="logo-instagram" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Instagram</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">YouTube</a>
+        </li>
+    
+    </ul>
+    
+    <ul class="footer-list">
+    
+        <li>
+            <h3 class="h4 footer-list-title">Privacy And Tos</h3>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Advertiser Agreement</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Acceptable Use Policy</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Technology Privacy</a>
+        </li>
+    
+        <li class="footer-list-item">
+            <ion-icon name="caret-forward" aria-hidden="true"></ion-icon>
+    
+            <a href="#" class="footer-link">Developer Agreement</a>
+        </li>
+    
+    </ul>
+    
+    </div>
+    
+    <div class="footer-bottom">
+    <p class="copyright">
+      &copy; 2024 All Rights Reserved. Developed by Tylee yang
+    </p>
+    </div>
+    
+    </div>
+</footer>
+ 
+
+    <!-- to top -->
+    <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+        <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+      </a>
+
+
+    <script src="./assets/js/script.js" defer></script>
+
+    <!-- ionicon link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
